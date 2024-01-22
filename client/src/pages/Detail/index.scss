@@ -1,0 +1,29 @@
+#detail{
+    padding-top: 200px;
+    .left-side{
+        max-width: 600px;
+    }
+    img{
+        max-width: 100%;
+    }
+    .course{
+
+    }
+    p{
+        button{
+            background-color: transparent;
+            border: none;
+            font-size: 20px;
+            margin: 0 10px;
+            color: #5b5b5b;
+            transition: 200ms;
+            &:hover{
+                background-color: #ebebeb;
+                border-radius: 5px;
+            }
+            .fa-solid.fa-heart{
+                color: red;
+            }
+        }
+    }
+}

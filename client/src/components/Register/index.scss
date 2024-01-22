@@ -1,0 +1,91 @@
+#Register {
+    overflow: hidden;
+
+  display: flex;
+  .left-side {
+    width: 50%;
+    min-height: 50vh;
+    background-color: orange;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    .content {
+      width: 400px;
+      span{
+        color: #000;
+      }
+    }
+  }
+  .right-side {
+    
+    width: 50%;
+    min-height: 10vh;
+    background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+    background-color: #fff;
+    opacity: 0.9;
+    color: #000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    form{
+        input{
+            width: 300px;
+            padding: 5px 10px;
+            border: none;
+            outline: none;
+            margin-bottom: 10px;
+        }
+        button{
+            background-color: orange;
+            color: white;
+            border: none;
+            padding: 15px 35px;
+            margin-top: 20px;
+
+        }
+    }
+    
+  }
+}
+
+@media screen and (max-width:992px) {
+    #Register {
+        display: block;
+
+        .left-side {
+            width: 100%;
+            padding: 0px;
+            .content {
+                width: 200px;
+                padding: 0px;
+                span{
+                  color: #000;
+                }
+              }
+        }
+        .right-side {
+            width: 100%;
+    min-height: 10vh;
+    background-image: url("https://preview.colorlib.com/theme/course/images/search_background.jpg");
+    background-color: #fff;
+    opacity: 0.9;
+    color: #000;
+    text-align: center;
+    
+    form{
+        
+        input{
+            width: 200px;
+            padding: 5px 10px;
+            border: none;
+            outline: none;
+            margin-bottom: 10px;
+        }
+    }
+          }
+    }
+}
